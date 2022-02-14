@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background: url("Images/4.jpg");
+    background-size: cover;
+    height: 100vh;
+    
+
+}
