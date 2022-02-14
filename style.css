@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/***** HEADER *****/
 
 header {
-    background: url("Images/4.jpg");
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url("Images/17.jpg");
     background-size: cover;
     height: 100vh;
     
