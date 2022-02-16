@@ -11,6 +11,21 @@
     margin: 0 auto;
 }
 
+.heading-main h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
+.heading-main h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid #000;
+    margin: 20px auto;
+}
+
 
 /***** HEADER *****/
 
@@ -104,4 +119,19 @@ nav ul li a:active {
     transition: 0.5s;
     background: #e7005f;
     border: 1px solid #e7005f;
+}
+
+/***** ABOUT US *****/
+.smoothie-example img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #000;
+}
+
+
+/***** OUR SMOOTHIE *****/
+.smoothie-info img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #000;
 }
