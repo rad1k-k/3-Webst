@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+
+/***** REUSABLE *****/
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+
 /***** HEADER *****/
 
 header {
