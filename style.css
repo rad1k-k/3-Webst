@@ -26,3 +26,42 @@ header {
     letter-spacing: 1.5px;
     word-spacing: 6px;
 }
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background: #ff4635;
+    border: 1px solid #fff;
+} 
+
+
+.btn-full:hover,
+.btn-full:active {
+    transition: 0.5s;
+    background: #e7005f;
+    border: 1px solid #e7005f;
+}
+
+.btn-empty:link,
+.btn-empty:visited {
+    margin-left: 5px;
+    background: transparent;
+}
+
+.btn-empty:hover,
+.btn-empty:active {
+    transition: 0.5s;
+    background: #e7005f;
+    border: 1px solid #e7005f;
+}
