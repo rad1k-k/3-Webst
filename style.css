@@ -30,7 +30,7 @@
 /***** HEADER *****/
 
 header {
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url("Images/17.jpg");
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url("Images/47.jpg");
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -208,6 +208,41 @@ nav ul li a:active {
     border-radius: 50%;
     float: left;
 }
+
+
+
+/*****PHOTOGALLERY*****/
+
+
+.photo-segment li {
+    list-style-type: none;
+    background-color: #000;
+    overflow: hidden;
+    height: 340px;
+    
+}
+.photo-segment img {
+    width: 100%;
+    height: 340px;
+    opacity: 0.5;
+    transform: scale(1.15);
+}
+
+.photo-segment img:hover {
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1);
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
