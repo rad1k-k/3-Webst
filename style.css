@@ -33,6 +33,7 @@ header {
     background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url("Images/17.jpg");
     background-size: cover;
     height: 100vh;
+    background-repeat: no-repeat;
 }
 
 #logo img {
@@ -159,13 +160,64 @@ nav ul li a:active {
 
 
 
+/*****REFERENCES*****/
 
-/***STOP FLOATING***/
+.reference {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Images/31.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+
+
+.reference h2 {
+    color: #fff;
+    padding-top: 40px;
+}
+
+.reference h2:after {
+    border-bottom: 2px solid #fff;
+}
+
+
+.one-reference {
+    color: #fff;
+    font-size: 20px;
+}
+
+.one-reference p {
+    font-style: italic;
+}
+
+.photo-name {
+    margin-top: 10px;
+    margin-bottom: 60px;
+
+}
+
+.photo-name p {
+    padding: 13px;
+    margin-left: 60px;
+    font-style: normal;
+    
+
+}
+
+.photo-name img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+
+
+
+/***** Stop floating - až na konec CSS *****/
 .clearfix {zoom: 1}
 .clearfix:after {
-    content:".";
-    display:block;
-    clear:both;
-    height: 0;
-    visibility: hid;
-   }
+content: ".";
+clear: both;
+display: block;
+height: 0;
+visibility: hidden;
+}
