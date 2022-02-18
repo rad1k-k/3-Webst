@@ -30,7 +30,7 @@
 /***** HEADER *****/
 
 header {
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url("Images/1.jpg");
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url("../Images/1.jpg");
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ nav ul li a:active {
 /*****REFERENCES*****/
 
 .reference {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Images/31.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../Images/31.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
