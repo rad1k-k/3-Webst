@@ -34,6 +34,7 @@ header {
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #logo img {
@@ -166,6 +167,7 @@ nav ul li a:active {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../Images/31.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
     
 
@@ -271,6 +273,55 @@ input[type="submit"]:hover {
     background-color: blueviolet;
     color: rgb(80, 212, 36);
 }
+
+
+
+
+/*****FOOTER*****/
+.footer-page {
+    background: #3f1929;
+    margin-top: 50px;
+    color: #fff;
+}
+
+
+.social {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social p {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* .footer-page img { */
+    width: 40px;
+}
+
+.social p a:link,
+.social p a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.social p a:hover,
+.social p a:active {
+    color: rgb(224, 23, 23);
+}
+
+
+.footer-text {
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
 
 
 
