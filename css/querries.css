@@ -1,3 +1,97 @@
+
+@media only screen and (max-width: 1150px) {
+
+    .photo-segment {
+        margin-left: 10px;
+        margin-right: 10px; 
+    }
+
+    .col.span-1-of-3.one-reference {
+        width: 49%;
+    }
+
+    .one-reference:nth-child(3) {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 765px) {
+    .text-smoothie p {
+        padding-top: 0px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 860px) {
+
+    .smoothie-info .span-1-of-2 {
+        width: 80%;
+    }
+
+    .smoothie-info img {
+        margin-left: 2%;
+        margin-right: 2%px;
+    }
+
+    .text-smoothie p {
+        padding-top: 12px;
+    }
+
+
+
+
+}
+
+
 @media only screen and (max-width: 750px) {
+
+    .photo-segment .col {
+        margin-left: 0px;
+    }
+
+    .photo-segment li {
+        width: 100%;  
+    }
+
+
+    .smoothie-example .span-1-of-2 {
+        width: 60%; 
+    }
+
+    .smoothie-example .col {
+        margin-left: 0;
+    }
+
+    .smoothie-example img {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 685px) {
+
+    .col.span-1-of-3.one-reference {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .photo-name {
+        float: right;
+        margin-right: 25px;
+    }
+
+
+
     
 }
