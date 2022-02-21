@@ -12,18 +12,21 @@
     <link rel="stylesheet" href="Others/grid.css">
     <script src="js/lightbox-plus-jquery.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
 
-  <script src="js/script.js"></script>
+
+    <script src="js/script.js"></script>
 
 </head>
 <body>
 
     <header>
+        <div class="nav-background">
+            
+        </div>
+
+
         <div class="nav-bar row">
             <div id="logo">
                 <img src="Images/logo.png" alt="">
@@ -31,11 +34,11 @@
     
             <nav>
                 <ul>
-                    <li><a href="">One</a></li>
-                    <li><a href="">Two</a></li>
-                    <li><a href="">Three</a></li>
-                    <li><a href="">Four</a></li>
-                    <li><a href="">Five</a></li>
+                    <li><a href="" class="jq--scroll-our-smoothie">Our smoothie</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">References</a></li>
+                    <li><a href="">Photogallery</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
     
             </nav>
@@ -54,7 +57,7 @@
 
     <main>
 
-        <section class="about-us row">
+        <section class="about-us row jq--our-smoothie">
             <div class="heading-main">
                 <h2>Our smoothie</h2>
             </div>
@@ -146,7 +149,7 @@
                 <h2>Photogallery</h2>
             </div>
 
-            <div class="photos row">
+            <!-- <div class="photos row">
                 <ul class="photo-segment">
                     <li class="col span-1-of-2"><img src="Images/7.jpg" alt=""></li>
                     <li class="col span-1-of-2"><img src="Images/6.jpg" alt=""></li>
@@ -163,7 +166,31 @@
                     <li class="col span-1-of-2"><img src="Images/41.jpg" alt=""></li>
                 </ul>
 
+            </div> -->
+
+            <!-- LIGHTBOX PHOTOGALLERY -->
+
+
+            <div class="photos row">
+                <ul class="photo-segment">
+                    <li class="col span-1-of-2"><a href="img/1.jpg" data-lightbox="mygallery" data-title="strawberry smoothie"><img src="img/1.jpg" alt=""></a></li>
+                    <li class="col span-1-of-2"><a href="img/2.jpg" data-lightbox="mygallery" data-title="kiwi banane strawberry"><img src="img/2.jpg" alt=""></a></li>
+                </ul>
+               
+
+                <ul class="photo-segment">
+                    <li class="col span-1-of-2"><a href="img/3.jpg" data-lightbox="mygallery" data-title="fruit mix"><img src="img/3.jpg" alt=""></a></li>
+                    <li class="col span-1-of-2"><a href="img/4.jpg" data-lightbox="mygallery" data-title="raspberries blueberries"><img src="img/4.jpg" alt=""></a></li>
+                </ul>
+
+                <ul class="photo-segment">
+                    <li class="col span-1-of-2"><a href="img/5.jpg" data-lightbox="mygallery" data-title="raspberry bowl"><img src="img/5.jpg" alt=""></a></li>
+                    <li class="col span-1-of-2"><a href="img/6.jpg" data-lightbox="mygallery" data-title="avocado apple"><img src="img/6.jpg" alt=""></a></li>
+                </ul>
+
             </div>
+
+
 
         </section>
 
